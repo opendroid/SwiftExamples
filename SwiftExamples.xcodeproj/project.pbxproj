@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7425EE2C1CC82DBD0036A06D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7425EE2B1CC82DBD0036A06D /* README.md */; };
 		74CCDF2A1CC829A900B6BB55 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CCDF291CC829A900B6BB55 /* main.swift */; };
+		74CCDF311CC829EE00B6BB55 /* Chapter01Basics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CCDF301CC829EE00B6BB55 /* Chapter01Basics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7425EE2B1CC82DBD0036A06D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		74CCDF261CC829A900B6BB55 /* SwiftExamples */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftExamples; sourceTree = BUILT_PRODUCTS_DIR; };
 		74CCDF291CC829A900B6BB55 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		74CCDF301CC829EE00B6BB55 /* Chapter01Basics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter01Basics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 		74CCDF281CC829A900B6BB55 /* SwiftExamples */ = {
 			isa = PBXGroup;
 			children = (
+				7425EE2B1CC82DBD0036A06D /* README.md */,
 				74CCDF291CC829A900B6BB55 /* main.swift */,
+				74CCDF301CC829EE00B6BB55 /* Chapter01Basics.swift */,
 			);
 			path = SwiftExamples;
 			sourceTree = "<group>";
@@ -119,7 +125,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7425EE2C1CC82DBD0036A06D /* README.md in Sources */,
 				74CCDF2A1CC829A900B6BB55 /* main.swift in Sources */,
+				74CCDF311CC829EE00B6BB55 /* Chapter01Basics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +249,7 @@
 				74CCDF2F1CC829A900B6BB55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
